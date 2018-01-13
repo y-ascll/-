@@ -1,8 +1,8 @@
 # 課題２
 
-ORG=imread('images/cat1.jpg');　　
-ORG = rgb2gray(ORG); colormap(gray);　　
-imagesc(ORG); axis image;　　
+ORG=imread('images/cat1.jpg');  
+ORG = rgb2gray(ORG); colormap(gray);  
+imagesc(ORG); axis image;  
 
 によって原画像を読み込み，グレースケールで表示した結果を図１に示す。
 ![kadai2-1](https://github.com/y-ascll/image_processing/blob/master/mdimages/kadai2-1.jpg)
@@ -10,9 +10,9 @@ imagesc(ORG); axis image;　　
 図１ 原画像のグレースケール
 </div>  
 　　
-IMG = ORG>128;　　
-imagesc(IMG); colormap(gray); colorbar;  axis image;　　
-pause;　　
+IMG = ORG>128;  
+imagesc(IMG); colormap(gray); colorbar;  axis image;  
+pause;  
 
 によって２階調画像を生成する。
 ![kadai2-2](https://github.com/y-ascll/image_processing/blob/master/mdimages/kadai2-2.jpg)
