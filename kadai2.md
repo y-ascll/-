@@ -8,10 +8,10 @@ imagesc(ORG); axis image;
 ![kadai2-1](https://github.com/y-ascll/image_processing/blob/master/mdimages/kadai2-1.jpg)
 <div align="center">
 図１ 原画像のグレースケール
-</div>  
-　　
+</div>
+  
 IMG = ORG>128;  
-imagesc(IMG); colormap(gray); colorbar;  axis image;  
+imagesc(IMG); colormap(gray); colorbar; axis image;  
 pause;  
 
 によって２階調画像を生成する。
