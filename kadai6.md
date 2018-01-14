@@ -27,7 +27,7 @@ IMG = dither(ORG);
 imagesc(IMG); colormap(gray); colorbar;
 
 によってディザ法で二値化し表示した画像は次のようになった。  
-![kadai6-2](https://github.com/y-ascll/image_processing/blob/master/mdimages/kadai6-2.jpg)
+![kadai6-3](https://github.com/y-ascll/image_processing/blob/master/mdimages/kadai6-3.jpg)
 <div align="center">
-図２ ディザ法で二値化した画像  
+図３ ディザ法で二値化した画像  
 </div> 
