@@ -1,6 +1,6 @@
 # 課題7
 
-ORG=imread('images/cat1.jpg');  
+ORG=imread('images/cat2.jpg');  
 ORG= rgb2gray(ORG);  
 imagesc(ORG); colormap(gray); colorbar;  
 pause;  
